@@ -1,0 +1,5 @@
+config {
+  type: "view", // Creates a view in BigQuery. Try changing to "table" instead.
+  description: "first table."
+}
+SELECT sum(number) from ${ref(source)} as total

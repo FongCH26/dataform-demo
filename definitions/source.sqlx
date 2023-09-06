@@ -1,0 +1,9 @@
+config { 
+        type: "view" ,
+        description: "first table."
+        }
+SELECT 1 as number 
+union all 
+select 3 as number
+union all
+select 5 as number
