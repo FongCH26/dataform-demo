@@ -1,5 +1,5 @@
 config { 
-        type: "view" ,
+        type: "table" ,
         description: "first table."
         }
 SELECT 1 as number 
